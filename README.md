@@ -1,16 +1,22 @@
-# React + Vite
+# 🌤️ Weather App - React & OpenWeather API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React kullanarak gerçek zamanlı hava durumu verilerini sunan modern bir web uygulamasıdır. 7 günlük yoğun çalışma planımın bir parçası olarak geliştirilmiştir.
 
-Currently, two official plugins are available:
+## ✨ Öne Çıkan Özellikler
+- **Dinamik Veri:** OpenWeatherMap API ile saniyelik güncel veriler.
+- **Hata Yönetimi:** Geçersiz şehir isimlerine karşı uyarı mekanizması.
+- **Responsive Hizalama:** Flexbox ile her cihazda düzgün duran arayüz.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Teknik Detaylar
+- **Framework:** React + Vite
+- **API:** Fetch API & Async/Await yapısı.
+- **Güvenlik:** `.env` dosyası ile API Key gizleme.
+- **Styling:** Custom CSS3 & Flexbox.
 
-## React Compiler
+## 🚀 Kurulum
+1. `npm install`
+2. `.env` dosyasına `VITE_APP_ID=API_ANAHTARINIZ` ekleyin.
+3. `npm run dev` ile başlatın.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Geliştiren: İdil Esen
